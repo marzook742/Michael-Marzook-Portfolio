@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Marzook Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class = "logo"> Michael Marzook</div>
+        <div>
+            <ul class ="nav-links">
+                <li><a href= "index.html">About Me</a></li>
+                <li><a href= "Project.Html">Projects</a></li>
+                <li><a href= "MyGoals.html">My Goals</a></li>
+                <li><a href= "Resume.html">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id= "hamburger-nav">
+        <div class = "logo">Michael Marzook</div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "menu-links"> 
+                <li><a href= "index.html" onclick="toggleMenu()">About </a></li>
+                <li><a href= "Project.Html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href= "MyGoals.html" onclick="toggleMenu()">Goals</a></li>
+                <li><a href= "Resume.html" onclick="toggleMenu()">Resume</a></li>
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src ="./assets/Michael Marzook profile pic.jpg"alt="Michael Marzook profile picture">
+        </div>
+        <div class = "section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title">Michael Marzook</h1>
+            <p class="section__text__p2">Information Systems </p>
+            <p class="section__text__p3">San Diego State University</p>
+            <div class = "btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/Michael Marzook resume .pdf')">
+                Download CV
+            </button>
+            <button 
+            class="btn btn-color-1" 
+            onclick="location.href='Resume.html'">
+            Contact Info
+        </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="My Linkdin profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/michael-marzook-903b44226/'">
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="aboutme">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-description">
+            <section id="aboutmetext">
+                
+    
+                <p class="aboutmetext">
+                    I am an Information Systems professional passionate about leveraging technology to optimize business processes, enhance security, and improve user experiences.  
+                    Currently pursuing my degree at San Diego State University, I have hands-on experience in IT support, data analysis, and enterprise system management.
+            
+                    As an IT Internal Audit Intern at Midland Credit Management, I conducted IT controls testing to ensure compliance and data integrity.  
+                    At SDSU, I managed over 200 Mac and Windows devices using Jamf Pro and Microsoft Endpoint Manager, troubleshooting technical issues and improving system efficiency.
+            
+                    My skills include enterprise system management, network troubleshooting, SQL, ServiceNow, and Microsoft 365. I thrive in problem-solving environments  
+                    and enjoy taking on challenges that require analytical thinking and collaboration.
+              
+               
+                    
+                    Outside of work, I stay active by playing basketball, hiking, going to the beach, and working out. These activities keep me motivated and foster discipline and teamwork.  
+                    I am always eager to grow, collaborate, and contribute to innovative projects.
+                </p>
+            </section>
+        
+        </div>
+        
+        </div>
+      
+            
+        </div>
+    </section>
+   
+                </div>
+            </div>
+        </div>    
+
+   </section> 
+    <script src="script.js"></script>
+</body>
+</html>

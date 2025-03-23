@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display:flex;
+    }
+}
+.about-description {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 25px; 
+    line-height: 1.6;
+    text-indent: 30px; /* Improves readability */
+}
+.gettoknow-description {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 25px; 
+    line-height: 1.6;
+    text-indent: 30px; /* Improves readability */
+}
+
+.aboutme{
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.education{
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 200rem;
+    line-height: 1.6;
+    margin-bottom: 25px; 
+    line-height: 1.6;
+    text-indent: 30px;
+}

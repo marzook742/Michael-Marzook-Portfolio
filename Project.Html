@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Marzook Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class = "logo"> Michael Marzook</div>
+        <div>
+            <ul class ="nav-links">
+                <li><a href= "index.html">About Me</a></li>
+                <li><a href= "Project.Html">Projects</a></li>
+                <li><a href= "MyGoals.html">My Goals</a></li>
+                <li><a href= "Resume.html">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id= "hamburger-nav">
+        <div class = "logo">Michael Marzook</div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "menu-links"> 
+                <li><a href= "index.html" onclick="toggleMenu()">About </a></li>
+                <li><a href= "Project.Html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href= "MyGoals.html" onclick="toggleMenu()">Goals</a></li>
+                <li><a href= "Resume.html" onclick="toggleMenu()">Resume</a></li>
+            </div>
+        </div>
+
+    </nav>
+<body>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="experience-container"> 
+            
+           
+            <div class="details-container">
+                <div class="article-container">
+                    <img src="./assets/stacked.png" alt="K1 Speed Project" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title">Business Process Redesign: K1 Speed</h2>
+                <p>
+                    Analyzed K1 Speed's customer management process, utilizing process models, data flows, and risk analysis to optimize operations. Implemented a digital queuing system that enhanced customer satisfaction, reduced refunds, and improved retention. This solution supported enterprise-level goals and delivered a 140% ROI by providing real-time wait times and a more efficient CRM system.
+                </p>
+
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Final Draft Business Report.pdf', '_blank')">
+                        View Project
+                    </button>
+                </div>
+            </div>
+    
+           
+            <div class="details-container">
+                <div class="article-container">
+                    <img src="./assets/microsoft-sql-server4529.jpg" alt="SQL Server Project" class="project2-img" />
+                </div>
+                <h2 class="experience-sub-title2">SQL Server Project</h2>
+                    <p>
+                        Designed and implemented a relational database system using SQL Server, creating and normalizing a schema with seven interconnected tables, each featuring unique primary keys and relevant attributes. Defined relationships with foreign keys and enforced data integrity constraints. Wrote and executed complex SQL queries for data insertion, aggregation, and reporting, including customer spending analysis and product sales summaries, providing valuable insights for decision-making.
+                    </p>
+                <div class="btn-container2">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Group 3 - MIS 380 Final Project.pdf', '_blank')">
+                        View Project
+                    </button>
+                </div>
+            </div>
+    
+        </div> 
+    </section>
+    
+                    
+</html>
